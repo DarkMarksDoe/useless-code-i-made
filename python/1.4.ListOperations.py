@@ -7,6 +7,15 @@
 # If this code works, it was written by DarkMarksDoe. If not, I don't know
 # who wrote it, just pass away
 
+
+# INFO ABOUT LISTS
+
+# ~ General purpose
+# ~ Most widely used data structure
+# ~ Grow and shrink size as needed
+# ~ Sequence type
+# ~ Sortable
+
 #                             CONSTRUCTORS / COMPREHENSION
 x = list()
 y = ['z', 21, 'Mark', 3.1416]
