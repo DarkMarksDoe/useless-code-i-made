@@ -54,9 +54,9 @@ print('Sorted y:', sorted(y))
 z = ('Jhon', 'Oscar', 'Steve')
 print('Sorted z:', sorted(z))
 
-#Sorting by Second Letter
+# Sorting by Second Letter
 # Add a key parameter and a lambda function to return the second character.
 # (key is an arbitrary name)
 
 z = ('Jhon', 'Oscar', 'Steve', 'Cartman')
-print('Sorted by 2nd letter: ', sorted(z,key=lambda k : k[1]))
+print('Sorted by 2nd letter: ', sorted(z, key=lambda k: k[1]))
