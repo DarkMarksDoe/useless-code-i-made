@@ -74,8 +74,25 @@ class MaxHeap:
 
 
 # !                         MaxHEAP TEST CODE
-m = MaxHeap([100,19,36])
+m = MaxHeap([100, 19, 36])
 m.push(17)
-print('MaxHeap:',m)
-print('Pop:',m.pop())
-print('Peek:',m.peek())
+print('MaxHeap:', m)
+print('Pop:', m.pop())
+print('Peek:', m.peek())
+
+# ! INFO ABOUT THIS SHIT
+
+# ? inserting an item takes O(log n)time
+# ? getting the Max item takes O(1)time
+# ? Removing the Max item takes O(log n)time
+
+# * Max Heap will have 7functions
+# * 1)push--adding an item to the Max Heap
+# * 2)pop--removing an item from the Max Heap
+# * 3)peek--take a look at what is the max number in the Max Heap
+# * 4) __swap--swaps 2items
+# * 5)__floatup--moves an item up through the Max Heap
+# * until it is smaller than its parent
+# * 6)__bubbledown--moves an item down the Max Heap
+# * until it reaches its proper position
+# * 7)__str__--print out the Max Heap as a list item
